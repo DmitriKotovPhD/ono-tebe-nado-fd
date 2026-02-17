@@ -40,10 +40,6 @@
   width: 130px;
 }
 
-.header__logo-image {
-
-}
-
 .action-link {
   text-decoration-skip-ink: none;
   text-underline-offset: 3px;
@@ -60,23 +56,11 @@
   align-items: start;
 }
 
-.address-tel {
-
-}
-
-.address-email {
-
-}
-
 .header__address {
   justify-self: end;
   width: 240px;
   font-size: 18px;
   line-height: 24px;
-}
-
-.main {
-
 }
 
 .overlay-container {
@@ -326,10 +310,6 @@
   line-height: 120%;  /* Подгонка под целевой внешний вид в шаблоне. Здесь это надо. */
 }
 
-.footer__menu-link {
-
-}
-
 .footer__menu-link_active {
   text-decoration: none;
 }
@@ -339,14 +319,6 @@
   display: flex;
   gap: 48px;
   justify-self: end;
-}
-
-.footer__social-list-item {
-
-}
-
-.footer__social-link {
-
 }
 
 .footer__social-icon {
