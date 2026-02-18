@@ -2,8 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    height: 293px;
-    padding: 50px;
+    padding: 95px 50px;
 }
 
 .header__menu {
@@ -16,11 +15,6 @@
   display: flex;
   list-style-type: circle;
   gap: 26px;
-  margin-left: -7px;
-}
-
-.header__menu-list-item {
-  padding-right: 4px;
 }
 
 .header__menu-list-item_no-bullit {
@@ -28,7 +22,12 @@
 }
 
 .header__menu-link {
-  margin-left: 7px;
+  margin-left: 4px;
+  margin-right: 5px;
+}
+
+.header__menu-list-item-first-child .header__menu-link {
+  margin-left: 0;
 }
 
 .header__menu-link_active {
@@ -136,7 +135,7 @@
 
 .bet-button {
   cursor: pointer;
-  border: 1px solid white;
+  border: 1px solid currentColor;
   background: transparent;
   color: white;
   padding: 12px 32px;
@@ -229,7 +228,6 @@
 
 .card__text {
   margin-top: 1em;
-  overflow: hidden;
   font-size: 20px;
   line-height: 120%;
 }
@@ -280,11 +278,9 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 180px;
-  height: 180px;
+  padding: 0 50px 84px;
   align-items: start;
   justify-items: center;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .footer__address {
